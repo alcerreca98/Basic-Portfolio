@@ -1,0 +1,116 @@
+html{
+    background-color: #cccccc;
+}
+
+header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-width: 10px;
+}
+
+nav{
+    width: 960px;
+    margin: auto;
+    /*margin-bottom: 0px;*/
+    align-self: center;
+    display: flex;
+    padding: 20px 10px 20px 10px;
+}
+
+a{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 960px;
+    margin: auto;
+    /*padding: 10px 15px;*/
+    align-self: center;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+footer{
+    border-style: solid;
+    border-top: #4aaaa5;
+    border-width: 5px;
+    background-color: #666666;
+    padding: 10px 10px 10px 10px;
+}
+
+h1{
+    background-color: #4aaaa5;
+    padding: 20px 10px 20px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    line-height: 200%;
+    text-align: justify;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure{
+    float : left;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+    font-weight: bold;
+}
+
+.message{
+    height:200px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left{
+    float : left;
+}
+.right{
+    float : right;
+}
+/*.content{
+    width: 960px;
+    margin: auto;
+    
+}*/
