@@ -1,18 +1,17 @@
 html{
     background-color: #cccccc;
+    
 }
 
 header{
     background-color: #ffffff;
-    border-color: #cccccc;
-    border-width: 10px;
+    border-bottom: 5px solid #cccccc;
 }
 
 nav{
     display: flex;
     width: 960px;
     margin: auto;
-    /*margin-bottom: 0px;*/
     align-self: center;
     padding: 20px 10px 20px 10px;
 }
@@ -43,7 +42,7 @@ footer{
 
 h1{
     background-color: #4aaaa5;
-    padding: 20px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
 }
@@ -98,6 +97,10 @@ hr{
       padding: 0px 50px;
 }
 
+.container{
+    display: flex;
+}
+
 .message{
     height:200px;
 }
@@ -119,9 +122,3 @@ hr{
 .right{
     float : right;
 }
-/*.content{
-    width: 100%;
-    margin: 0 auto;
-    clear: both;
-    
-}*/
