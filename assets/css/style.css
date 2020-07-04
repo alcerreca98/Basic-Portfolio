@@ -71,20 +71,22 @@ figure{
 }
 
 input[type=text] {
-    width: 100%;
+    width: 95%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 10px 10px;
     box-sizing: border-box;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
 }
 input[type=email] {
-    width: 100%;
+    width: 95%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 10px 10px;
     box-sizing: border-box;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
 }
 
 label{
@@ -100,6 +102,21 @@ hr{
       border-top: 3px solid #467AB8;
       margin: 1em 0;
       padding: 0px 50px;
+}
+input[type=submit]{
+    background-color: #4aaaa5;
+    border: 2px solid #467AB8;
+    border-radius: 12px;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 15px;
+    text-decoration: #467AB8;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    box-shadow: 5px 10px #467AB8
 }
 
 .link:hover{
